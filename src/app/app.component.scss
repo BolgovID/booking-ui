@@ -1,0 +1,16 @@
+@import "../theme/variables.scss";
+
+header{
+    display: flex;
+    background-color: $blue;
+    height: 80px;
+    align-items: center;
+
+
+    a{
+        margin-left: 50px;
+        text-decoration: none;
+        font-size: 2rem;
+        color: white;
+    }
+}
