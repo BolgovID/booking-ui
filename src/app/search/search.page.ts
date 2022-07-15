@@ -6,11 +6,11 @@ import { HotelService } from 'src/providers/hotel.service';
   templateUrl: './search.page.html',
   styleUrls: ['./search.page.scss']
 })
-export class SearchPage{
+export class SearchPage {
 
   constructor(private hotelService: HotelService) { }
 
-  async getHotel(){
+  async getHotel() {
     const model = await this.hotelService.getHotel();
 
     console.log("model: ", model)

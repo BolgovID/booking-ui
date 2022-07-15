@@ -1,3 +1,3 @@
-export interface IHotel{
-    
+export interface IHotel {
+
 }
